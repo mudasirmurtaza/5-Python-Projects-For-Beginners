@@ -35,6 +35,6 @@ if answer.lower() == "power supply":
     score += 1
 else:
     print("Incorrect!")
-
-print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+ 
+#using formatted strings (f-strings) or string formatting methods can improve readability. :.2f formats the output to two decimal places, making it look cleaner
+print(f"You got a {((score / 5) * 100):.2f}% score.") 
